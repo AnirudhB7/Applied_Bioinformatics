@@ -127,7 +127,7 @@ print('Question 5')
 from Bio import SeqIO
 fasta_file = '/autograder/source/18S_rRNAs.fasta'
 ##add code for question 5 here
-sequences = SeqIO.parse(open(fasta_file), 'fasta')
+sequences = SeqIO.parse(fasta_file, 'fasta')
 for record in sequences:
     rec_id = record.id
     seq = record.seq
