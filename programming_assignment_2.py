@@ -133,4 +133,4 @@ for record in sequences:
     seq = record.seq
     final_50 = seq[-50:]
     rc_final_50 = final_50.reverse_complement()
-    print(rec_id, rc_final_50)
+    print(rc_final_50)
